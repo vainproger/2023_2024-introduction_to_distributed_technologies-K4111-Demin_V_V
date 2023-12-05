@@ -1,3 +1,14 @@
+University: [ITMO University](https://itmo.ru/ru/) \
+Faculty: [FICT](https://fict.itmo.ru) \
+Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies) \
+Year: 2023/2024 \
+Group: K4111c \
+Author: Demin Vadim Vladimirovich \
+Lab: Lab4 \
+Date of create: 05.12.2023 \
+Date of finished: TBD
+
+
 ## Лабораторная работа №4 "Сети связи в Minikube, CNI и CoreDNS"
 
 При старте minikube запускаем его с параметрами:

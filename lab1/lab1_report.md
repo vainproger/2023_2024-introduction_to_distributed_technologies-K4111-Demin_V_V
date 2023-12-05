@@ -1,3 +1,14 @@
+University: [ITMO University](https://itmo.ru/ru/) \
+Faculty: [FICT](https://fict.itmo.ru) \
+Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies) \
+Year: 2023/2024 \
+Group: K4111c \
+Author: Demin Vadim Vladimirovich \
+Lab: Lab1 \
+Date of create: 28.11.2023 \
+Date of finished: TBD
+
+
 **Лабораторная работа №1**
 
 **\"Установка Docker и Minikube, мой первый манифест.\"**
@@ -34,35 +45,37 @@ Pause
 
 **Выполнение лабораторной:**
 
-![](./pics/image1.png){width="6.496527777777778in"
-height="2.0229166666666667in"}Запускаем minikube
+Запускаем minikube
 
-![](./pics/image2.png){width="2.698292869641295in"
-height="0.39588910761154855in"}Применяем написанный нами манифест
+![](./pics/image1.png)
+
+Применяем написанный нами манифест
+![](./pics/image2.png)
 
 Создаем сервис
 
-![](./pics/image3.png){width="5.250732720909887in"
-height="0.3854702537182852in"}
+![](./pics/image3.png)
 
-![](./pics/image4.png){width="4.948606736657918in"
-height="0.9167946194225722in"}Получаем доступ к контейнеру
 
-![](./pics/image5.png){width="6.496527777777778in"
-height="3.9569444444444444in"}Теперь в браузере заходим на
+Получаем доступ к контейнеру
+
+
+![](./pics/image4.png)
+
+
+Теперь в браузере заходим на
 localhost:8200
+![](./pics/image5.png)
 
 Теперь получаем токен для авторизации через команду ***kubectl logs
 vault***
 
 Он находится в конце логов, как Root Token
 
-![](./pics/image6.png){width="6.0737642169728785in"
-height="1.8231714785651794in"}
-
 Авторизовываемся на сайте через полученный токен
 
-![Изображение выглядит как текст, снимок экрана, программное
-обеспечение, Значок на компьютере Автоматически созданное
-описание](./pics/image7.png){width="6.496527777777778in"
-height="4.243055555555555in"}
+![](./pics/image7.png)
+
+## Схема
+
+![](scheme.drawio.png)
